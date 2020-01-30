@@ -1,0 +1,26 @@
+{
+  "name": "streamingmedia",
+  "version": "1.0.0",
+  "description": "Streaming Media Homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conradmh1026/streaming-media-assignment.git"
+  },
+  "author": "Conrad Hindman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Conradmh1026/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Conradmh1026/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
